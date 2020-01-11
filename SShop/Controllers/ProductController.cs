@@ -52,7 +52,7 @@ namespace SShop.Controllers
                     Code = 404
                 });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ErrorResponse()
                 {
@@ -86,7 +86,7 @@ namespace SShop.Controllers
                 };
                 return Ok(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ErrorResponse()
                 {
@@ -138,7 +138,7 @@ namespace SShop.Controllers
                 };
                 return Ok(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ErrorResponse()
                 {
@@ -179,7 +179,7 @@ namespace SShop.Controllers
                     Code = 404
                 });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ErrorResponse()
                 {
